@@ -122,7 +122,6 @@ const AddStudentFeedback = () => {
   };
 
   const handleFind = () => {
-    // Assuming this data comes from an API or database
     setStudentData({
       name: selectedStudent, // Add student's name from the dropdown
       id: 'S1726043026',
