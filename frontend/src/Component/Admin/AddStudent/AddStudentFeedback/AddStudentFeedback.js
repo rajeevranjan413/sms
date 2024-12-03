@@ -134,7 +134,6 @@ const AddStudentFeedback = () => {
     setShowStudentDetails(true);
   };
 
-  // Handler for feedback input change
   const handleFeedbackChange = (event) => {
     setStudentData({ ...studentData, feedback: event.target.value });
   };
