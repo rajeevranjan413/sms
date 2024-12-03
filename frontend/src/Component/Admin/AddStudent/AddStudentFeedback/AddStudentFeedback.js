@@ -113,7 +113,7 @@ const AddStudentFeedback = () => {
  
   const handleSectionChange = (event) => {
     setSelectedSection(event.target.value);
-    setSelectedStudent(''); // Reset student when section changes
+    setSelectedStudent(''); 
   };
 
   // Handler for student change
