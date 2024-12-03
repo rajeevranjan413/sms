@@ -123,7 +123,7 @@ const AddStudentFeedback = () => {
 
   const handleFind = () => {
     setStudentData({
-      name: selectedStudent, // Add student's name from the dropdown
+      name: selectedStudent, 
       id: 'S1726043026',
       phone: '1231231232',
       dob: '11/09/2024',
