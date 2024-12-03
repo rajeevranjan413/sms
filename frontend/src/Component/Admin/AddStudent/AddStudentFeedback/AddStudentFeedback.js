@@ -121,7 +121,6 @@ const AddStudentFeedback = () => {
     setSelectedStudent(event.target.value);
   };
 
-  // Handler for finding the student details
   const handleFind = () => {
     // Assuming this data comes from an API or database
     setStudentData({
